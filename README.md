@@ -1,3 +1,56 @@
-# SpringBoot-React-MySQL
+# Full Stack Employee Management System
+
+This is a full-stack user management application. The project is divided into two parts:
+
+- `fronendt`: A front-end application built using React.js and Bootstrap 5.
+- `backend`: A back-end REST API built with Spring Boot, Spring Data JPA, and MySQL.
+
+## FullStack-Front
+
+The front-end application is designed with a focus on User Experience. It provides an easy-to-use interface for managing users. Bootstrap 5 is used for the styling, providing a modern, responsive design. The application includes functionality to add, update, view and and delete employees.
+
+### Installation
+
+1. Install [Node.js and npm](https://nodejs.org/en/download/) (npm is included with Node.js) on your machine.
+2. Navigate to the `frontend` directory.
+3. Run `npm init vite` and follow the instructions
+4. Run `npm install` to install the dependencies.
+5. Run `npm run dev` to start the application.
+6. Open your browser to `http://localhost:5173` to view the application.
+
+## FullStack-BackEnd
+
+The back-end REST API is implemented using Spring Boot and Spring Data JPA with a MySQL database. It provides CRUD operations for a `Employee` model. The application includes exception handling, a repository for data access, and a controller for handling HTTP requests.
+
+### Installation
+
+1. Ensure you have a MySQL database running. You can update your database name, MySQL username, and password in the `application.properties` file in the `src/main/resources` directory.
+2. Import the `backend` directory as a Maven project in your IDE.
+3. Run the application from your IDE.
+4. The API will be available at `http://localhost:8089`.
+
+## Usage
+
+The front-end application communicates with the back-end API to create, read, update, and delete users.
+
+![UserManagementSystemHome](https://github.com/rufanmirganiyev/springboot-react-mysql/assets/109354732/f070308e-b834-43eb-8593-d1016a1e22ba)
+
+![RegisterUser](https://github.com/rufanmirganiyev/springboot-react-mysql/assets/109354732/0f4905bc-f65c-47aa-8d9a-14eaed201a5f)
+
+![EditUser](https://github.com/rufanmirganiyev/springboot-react-mysql/assets/109354732/076f74b9-7152-4393-851d-2eba62f67f95)
+
+##Test
+
+![getAllUsers](https://github.com/mirganiyevrufan/springboot-react-mysql/assets/113489022/f0249f69-c3d2-4e08-a16c-58679d3d6581)
+
+![getUserById](https://github.com/mirganiyevrufan/springboot-react-mysql/assets/113489022/9a25cefc-ec63-455d-858a-c8a3888cd2d9)
+
+![CreateUser](https://github.com/mirganiyevrufan/springboot-react-mysql/assets/113489022/37772669-19df-4e7d-855a-9c0bc4ca7a60)
+
+![UpdateUser](https://github.com/mirganiyevrufan/springboot-react-mysql/assets/113489022/938499c1-f84d-4421-8d6a-573712dbdea6)
+
+![image](https://github.com/mirganiyevrufan/springboot-react-mysql/assets/113489022/969a449d-7a29-4f30-86ff-23d5606b7345)
+
+
 
 

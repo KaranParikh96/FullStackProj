@@ -33,11 +33,11 @@ The back-end REST API is implemented using Spring Boot and Spring Data JPA with 
 
 The front-end application communicates with the back-end API to create, read, update, and delete users.
 
-![UserManagementSystemHome](https://github.com/rufanmirganiyev/springboot-react-mysql/assets/109354732/f070308e-b834-43eb-8593-d1016a1e22ba)
+![EmployeeManagementSystemHome](https://github.com/KaranParikh96/FullStackProj/blob/main/assets/allusersmain.png)
 
-![RegisterUser](https://github.com/rufanmirganiyev/springboot-react-mysql/assets/109354732/0f4905bc-f65c-47aa-8d9a-14eaed201a5f)
+![CreateEmployee](https://github.com/rufanmirganiyev/springboot-react-mysql/assets/109354732/0f4905bc-f65c-47aa-8d9a-14eaed201a5f)
 
-![EditUser](https://github.com/rufanmirganiyev/springboot-react-mysql/assets/109354732/076f74b9-7152-4393-851d-2eba62f67f95)
+![EditEmployee](https://github.com/rufanmirganiyev/springboot-react-mysql/assets/109354732/076f74b9-7152-4393-851d-2eba62f67f95)
 
 ##Test
 
